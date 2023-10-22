@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>sds</title>
+    <style>
+        header{
+            background-repeat: no-repeat;
+            background-attachment: unset;
+            background-size:100%;
+        }
+        .brand-title{
+            font-size: 30px;
+            color:black;
+            margin-top: 75px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+           
+        }
+        article{
+            text-align: center;
+            font-size: 25px;
+            font-family: arial;
+            font-weight: bold;
+            background-color: aliceblue;
+            margin-top:10px;
+        }
+        .bi-lightning-fill{
+            color: goldenrod;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+            grid-gap: 20px;
+        }
+       
+        @media screen and (orientation:landscape){
+            header{
+                grid-row: 1;
+            }
+            article{
+                grid-row: 2;
+            }
+            section{
+                display: grid;
+                grid-row: 3;
+            }
+            footer{
+                display: grid;
+                grid-template-columns:12fr;
+                grid-row: 4;
+            }
+        }
+        @media screen and (orientation:portrait){
+            header{
+                grid-row: 1;
+            }
+            article{
+                grid-row: 2;
+            }
+            section{
+                display: grid;
+                grid-template-columns: 12fr;
+                grid-row: 3;
+            }
+            footer{
+                display:inline-table;
+                grid-row: 4;
+                
+            }
+        }
+        .bi-whatsapp{
+            color:greenyellow;
+        }
+        .bi-facebook{
+            color: blue;
+        }
+        .bi-instgram{
+            color: rgb(179, 187, 31);
+        }
+        footer{
+            background-color: blanchedalmond;
+            color: black;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+        #foot{
+            display: flex;
+            
+            flex-direction: row;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="image/IMG-20231012-WA0000.jpg" width="100%" height="350px">
+    </header>
+    <article>
+        <marquee>
+        <span><img src="image/welcome-hii.gif" height="100px"></span>
+        <span><img src="image/welcome-hii.gif" height="100px"></span>
+        <span><img src="image/welcome-hii.gif" height="100px"></span>
+        <span><img src="image/welcome-hii.gif" height="100px"></span>
+        <span><img src="image/welcome-hii.gif" height="100px"></span>
+        <span><img src="image/welcome-hii.gif" height="100px"></span>
+        <span><img src="image/welcome-hii.gif" height="100px"></span>
+        <span><img src="image/welcome-hii.gif" height="100px"></span>
+        <span><img src="image/welcome-hii.gif" height="100px"></span>
+        <span><img src="image/welcome-hii.gif" height="100px"></span>
+        </marquee>
+    </article>
+    <section>
+        
+    </section>
+    <span>
+        <marquee direction="right">
+            <p style="font-size: 40px; font-family: arial; color: black;"><b>موقعنا الدامر جوار كلية التجارة</b></p>
+        </marquee>
+    </span>
+    <footer id="foot">
+        <div>
+        <button class="btn" style="width:200px;">M-num:+249-123703843</button>
+        <button>Email:amarelgak22@gmail.com</button>
+        <button><a href="https://api.whatsapp.com">whatsapp:00249123703843</a></button>
+        <button>إدارة / محمد سليقة</button>
+        </div>
+    </footer>
+    <span><a href="/index.html"><button class="btn btn-primary">الصفحة الرئيسية</button></a></span>
+    <span><a href="/public/card.html"><button class="btn btn-primary">الطللبات</button></a></span>
+
+</body>
+</html>
