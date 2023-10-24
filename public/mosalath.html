@@ -68,9 +68,13 @@
                 grid-row: 3;
             }
             footer{
-                display:inline-table;
-                grid-row: 4;
-                
+                .1{
+                    grid-row: 4;
+                }
+                #2{
+                    display: grid;
+                    grid-row: 5;
+                }
             }
         }
         .bi-whatsapp{
@@ -90,10 +94,11 @@
         a{
             text-decoration: none;
         }
-        #foot{
+        ul{
             display: flex;
-            
-            flex-direction: row;
+            justify-content: space-between;
+            list-style: none;
+            border: 1px solid black;
         }
     </style>
 </head>
@@ -123,16 +128,16 @@
             <p style="font-size: 40px; font-family: arial; color: black;"><b>موقعنا الدامر جوار كلية التجارة</b></p>
         </marquee>
     </span>
-    <footer id="foot">
-        <div>
-        <button class="btn" style="width:200px;">M-num:+249-123703843</button>
-        <button>Email:amarelgak22@gmail.com</button>
-        <button><a href="https://api.whatsapp.com">whatsapp:00249123703843</a></button>
-        <button>إدارة / محمد سليقة</button>
-        </div>
+    <footer>
+        <ul class="1">
+            <li>M-num:+249-123703843</li>
+            <li>Email:amarelgak22@gmail.com</li>
+            
+        </ul>
+        <ul id="2">
+            <li><a href="https://api.whatsapp.com">whatsapp:00249123703843</a></li>
+            <li>إدارة / محمد سليقة</li>
+        </ul>
     </footer>
-    <span><a href="/Almothlathkafteria/index.html"><button class="btn btn-primary">الصفحة الرئيسية</button></a></span>
-    <span><a href="/Almothlathkafteria/public/card.html"><button class="btn btn-primary">الطللبات</button></a></span>
-
 </body>
 </html>
